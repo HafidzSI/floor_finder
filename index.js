@@ -11,7 +11,7 @@ var find_lantai = (no_loker) => {
     var pembagi = 5;
     var total_loker = 5;
     
-    if(no_loker < 0)
+    if(no_loker <= 0)
     {
         return 'Masukkan data yang valid';
     }
